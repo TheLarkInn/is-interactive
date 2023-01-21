@@ -1,0 +1,13 @@
+[package]
+name = "is-interactive"
+description = "Checks if stdout or stderr is interactive"
+version = "0.1.0"
+authors = ["Sean Larkin <TheLarkInn@users.noreply.github.com>"]
+repository = "https://github.com/TheLarkInn/is-interactive"
+license = "MIT"
+categories = ["command-line-utilities"]
+
+[dependencies]
+atty = "0.2.14"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
